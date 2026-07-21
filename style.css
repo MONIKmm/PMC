@@ -400,3 +400,29 @@ body {
   transform: translateY(-5px);
   transition: 0.3s;
 }
+
+/* Back Navigation */
+.back-navigation{
+    padding:25px 0 0;
+}
+
+.back-navigation .container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    color:#FFC247;
+    font-size:16px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.back-btn:hover{
+    color:#FFD86B;
+    transform:translateX(-3px);
+}
